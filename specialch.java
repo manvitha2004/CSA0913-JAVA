@@ -14,3 +14,4 @@ class Specialch
         System.out.println("Number of special characters: " + count);
     }
 }
+
