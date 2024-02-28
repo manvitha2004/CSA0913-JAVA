@@ -1,13 +1,16 @@
-import java.util.*;
-public class reverse{
-    public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
-        System.out.println("enter the string:");
-        String str=sc.nextLine();
-        String reverse="";
-        for(int i=str.length()-1;i>=0;i--){
-            reverse+=str.charAt(i);
+import java.util.Scanner;
+class reverse 
+{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a word: ");
+        String word = scanner.next();
+        String reversed = "";
+        for (int i = word.length() - 1; i >= 0; i--) {
+            reversed =reversed+ word.charAt(i);
         }
-        System.out.println("reverse of the "+str+" is:"+reverse);
+        System.out.println("Reversed word: " + reversed);
     }
-}
+} 
+    
+ 

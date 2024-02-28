@@ -5,8 +5,10 @@ class Squarecube {
         System.out.print("Enter a decimal number: ");
         double number = scanner.nextDouble();
         
-        double square = number*number;
-        double cube = number*number*number);
+        double square = Math.pow(number,2);
+
+        double cube = Math.pow(number,3);
+
         
         System.out.println("Square Number: " + square);
         System.out.println("Cube Number: " + cube);
